@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-MitchelleList-922DB909-66BC-46FA-8546-0A99A5C93A50</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="NewFolder1\**" />
+    <Compile Remove="Views\Home\**" />
+    <Compile Remove="Views\NewFolder\**" />
+    <Compile Remove="Views\Shared\Home\**" />
+    <Content Remove="NewFolder1\**" />
+    <Content Remove="Views\Home\**" />
+    <Content Remove="Views\NewFolder\**" />
+    <Content Remove="Views\Shared\Home\**" />
+    <EmbeddedResource Remove="NewFolder1\**" />
+    <EmbeddedResource Remove="Views\Home\**" />
+    <EmbeddedResource Remove="Views\NewFolder\**" />
+    <EmbeddedResource Remove="Views\Shared\Home\**" />
+    <None Remove="NewFolder1\**" />
+    <None Remove="Views\Home\**" />
+    <None Remove="Views\NewFolder\**" />
+    <None Remove="Views\Shared\Home\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\ErrorViewModel.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\_ViewStart1.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="https://json.schemastore.org/band-manifest" /></VisualStudio></ProjectExtensions>
+
+</Project>
